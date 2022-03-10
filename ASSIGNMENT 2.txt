@@ -1,0 +1,264 @@
+1)
+
+class Hello {
+public static void main(String args[])
+{
+System.out.println("Hello");
+System.out.println("Rahul Dhadi");
+}
+}
+
+
+
+
+2)
+
+class Summ
+{
+public static void main(String args[])
+{
+int a=74;
+int b=36;
+int k=a+b;
+System.out.println("sum= "+ k);
+}
+}
+
+
+3)
+
+class Division
+{
+public static void main(String args[])
+{
+int i=50;
+int j=3;
+float D=50/3;
+System.out.println("division = " + D);
+}
+}
+
+
+
+
+4)
+
+class Opertns
+{
+public static void main(String args[])
+{
+int a=-5+8*6;
+int b=(55+9)%9;
+int c=20+(-3*5)/8;
+int d=5+15/3*2-8%3;
+
+System.out.println(a);
+System.out.println(b);
+System.out.println(c);
+System.out.println(d);
+}
+}
+
+
+
+
+5)
+
+import java.util.Scanner;
+class Product
+{
+public static void main(String args[])
+{
+Scanner pr = new Scanner(System.in);
+System.out.println("enter your first number");
+int a= pr.nextInt();
+System.out.println("enter your second number");
+int b= pr.nextInt();
+int p=a*b;
+System.out.println(a+"*"+b+"="+p);
+}
+}
+
+
+
+
+6)
+
+import java.util.Scanner;
+class Opperations
+{
+public static void main(String args[])
+{
+Scanner pr = new Scanner(System.in);
+System.out.println("enter your first number");
+int a= pr.nextInt();
+System.out.println("enter your second number");
+int b= pr.nextInt();
+int s=a+b;
+int d=a-b;
+int p=a*b;
+float div=a/b;
+int r=a%b; 
+System.out.println(a+"+"+b+"="+s);
+System.out.println(a+"-"+b+"="+d);
+System.out.println(a+"*"+b+"="+p);
+System.out.println(a+"/"+b+"="+div);
+System.out.println(a+"mod"+b+"="+r);
+}
+}
+
+
+
+
+
+
+
+7)
+
+import java.util.Scanner;
+class Table
+{
+public static void main(String args[])
+{
+Scanner pr = new Scanner(System.in);
+System.out.println("enter the number");
+int a= pr.nextInt();
+for(int x=1;x<=10;x++)
+{
+	int T = a*x;
+
+System.out.println(a+"*"+x+"="+T);
+}
+}
+}
+
+
+
+
+9)
+
+
+class Expression
+{
+public static void main(String args[])
+{
+double	a=((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
+System.out.println(a);
+}
+}
+
+
+
+
+
+10)
+
+
+class Expression2
+{
+public static void main(String args[])
+{
+double	a=4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11));
+System.out.println(a);
+}
+}
+
+
+
+
+
+
+
+
+
+11)
+
+import java.util.Scanner;
+class Circle
+{
+public static void main(String args[])
+{
+ final double pi=22.0/7;
+Scanner r = new Scanner(System.in);
+System.out.println("enter the radius");
+double rad=r.nextDouble();
+double a= pi*rad*rad;
+double p= 2*pi*rad;
+System.out.println("Perimeter= "+p);
+System.out.println("Area= "+a);
+}
+}
+
+
+
+
+12)
+
+
+import java.util.Scanner;
+class Average
+{
+public static void main(String args[])
+{
+Scanner pr = new Scanner(System.in);
+System.out.println("enter your first number");
+int a= pr.nextInt();
+System.out.println("enter your second number");
+int b= pr.nextInt();
+System.out.println("enter your third number");
+int c= pr.nextInt();
+double avg=(a+b+c)/3;
+System.out.println("Average =" + avg);
+}
+}
+
+
+
+
+13)
+
+
+import java.util.Scanner;
+class Rectangle
+{
+public static void main(String args[])
+{
+Scanner r = new Scanner(System.in);
+System.out.println("enter the width");
+float l=r.nextFloat();
+System.out.println("enter the height");
+float b=r.nextFloat();
+
+float a= l*b;
+float p= 2*(l+b);
+System.out.println("Perimeter= "+p);
+System.out.println("Area= "+a);
+}
+}
+
+
+
+
+15)
+
+import java.util.Scanner;
+class Swap
+{
+public static void main(String args[])
+{
+	Scanner a=new Scanner(System.in);
+	System.out.println("enter first number");
+	int n1=a.nextInt();
+	System.out.println("enter the second number");
+	int n2=a.nextInt();
+	int n3;
+	n3=n1;
+	n1=n2;
+	n2=n3;
+	
+	System.out.println("first number =" +n1);
+	System.out.println("second number =" +n2);
+}
+}
+
+	
