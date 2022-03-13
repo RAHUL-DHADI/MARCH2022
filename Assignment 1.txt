@@ -1,0 +1,237 @@
+//1. Check the given number is EVEN or ODD. 
+import java.util.*;
+class OddEven
+{
+	public static void main(String args[])
+	{
+		Scanner Od=new Scanner(System.in);
+		System.out.println("enter the number");
+		int a=Od.nextInt();
+		
+		if(a%2==0)
+		{
+			System.out.println("the number is even");
+		}
+		else
+		{
+			System.out.println("the number is odd");
+		}
+	}
+}
+
+
+//2. Java Program to find the Factorial of given number. 
+import java.util.*;
+class Factiorial
+{
+	public static void main(String args[])
+	{
+		Scanner Fc= new Scanner(System.in);
+		System.out.println("enter the number");
+		int F=Fc.nextInt();
+		int fact=1;
+		
+		for(int i=1;i<=F;i++)
+		{
+			 fact=fact*i;
+		}
+		System.out.println("factorial of the number =" + fact);
+	}
+}
+
+
+//4. Swap two numbers without using third variable approach. 
+
+import java.util.*;
+class Swap
+{
+	int a;
+	int b;
+	void swappp()
+	{
+	    a=a+b;
+	    b=a-b;
+		a=a-b;
+		
+		System.out.println("a="+a +"and b="+b);
+	}
+	
+	
+	public static void main(String args[])
+	{
+		Swap Sw = new Swap();
+		Scanner S= new Scanner(System.in);
+		System.out.println("enter the numbers");
+		int c=S.nextInt();
+		int d=S.nextInt();
+		Sw.swappp();
+	}
+}
+
+
+//5. check the given number is Positive or Negative in Java
+import java.util.*;
+class PosNeg
+{
+	public static void main(String args[])
+	{
+		Scanner P= new Scanner(System.in);
+		System.out.println("enter the number");
+		int a=P.nextInt();
+		
+		if(a<0)
+		{
+			System.out.println("the number is negative");
+		}
+		else if(a>0)
+		{
+			System.out.println("the number is positive");
+		}
+		else if(a==0)
+		{
+			System.out.println("the number is zero");
+		}
+	}
+}
+
+
+
+//6.Java Program to find whether given number is Leap year or NOT
+
+import java.util.*;
+class Leap
+{
+	public static void main(String args[])
+	{
+		Scanner Lp= new Scanner(System.in);
+		System.out.println("enter the year");
+		int Y= Lp.nextInt();
+		
+		if((Y%400==0)||(Y%4==0)&&(Y%100!=0))
+		{
+			System.out.println("The year is a leap year");
+		}
+		else
+		{
+			System.out.println("The year is not a leap year");
+		}
+	}
+}				
+
+
+
+//7 Java Program to Print 1 To 10 Without Using Loop. 
+
+class Number
+{
+	public static void main(String args[])
+	{
+    System.out.println(1);
+    System.out.println(2);
+    System.out.println(3);
+    System.out.println(4);
+    System.out.println(5);
+    System.out.println(6);
+    System.out.println(7);
+    System.out.println(8);
+    System.out.println(9);
+    System.out.println(10);
+	}
+}
+
+
+
+// 8.Java Program to print the digits of a Given Number. 
+import java.util.*;
+class Digits
+{
+	public static void main(String args[])
+	{
+		Scanner D= new Scanner(System.in);
+		System.out.println("enter the number");
+		int a=D.nextInt();
+		System.out.println("the digits are");
+		
+		while(a>0)
+		{
+			int b=a%10;
+			System.out.print("  "+b);
+			a=a/10;
+		}
+	}
+}
+	
+
+
+// 9.Java Program to print all the Factors of the Given number. 
+
+import java.util.*;
+class Factors
+{
+	public static void main(String Args[])
+	{
+		Scanner F= new Scanner(System.in);
+		System.out.println("enter the number");
+		int a=F.nextInt();
+		
+		System.out.println("the factors are");
+		 
+		 for(int i=1;i<=(a/2);i++){
+			 if(a%i==0){
+				 System.out.print("   "+i);
+			 }
+		 }
+	}
+}
+
+
+
+// 10. Java Program to find sum of the digits of a given number
+
+import java.util.*;
+class SumDig
+{
+	public static void main(String args[])
+	{
+		Scanner D= new Scanner(System.in);
+		System.out.println("enter the number");
+		int a=D.nextInt();
+		int sum=0;
+		System.out.println("the digits are");
+		
+		while(a>0)
+		{
+			int b=a%10;
+			sum=sum+b;
+			System.out.print("  "+b);
+			a=a/10;
+		}
+		System.out.println();
+		System.out.println("the sum of digits ="+sum);
+	}
+}
+
+
+//13. java program to Reverse a given number
+
+import java.util.*;
+class Reverse
+{
+	public static void main(String args[])
+	{
+		Scanner D= new Scanner(System.in);
+		System.out.println("enter the number");
+		int a=D.nextInt();
+		System.out.print("the reverse of the number =");
+		
+		while(a>0)
+		{
+			int b=a%10;
+			System.out.print(b);
+			a=a/10;
+		}
+	}
+}
+	
+
+
